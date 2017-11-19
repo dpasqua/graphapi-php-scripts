@@ -34,4 +34,4 @@ Para testar os scripts é necessário copiá-los para o diretório raiz da aplic
 
 Alguns scripts precisarão de parametrização extra. As parametrizações estão sempre no ínicio do arquivo. Exemplos de parametrização são: token de acesso de usuário ou página (`$accessToken`), identificadores de grupos, eventos ou places. (`$idGrupo`, `$idEvento` ou `$idPagina`).
 
-Nas parametrizações pode aparecer o campo `$idPublicacao`. Este parâmetro, pré-requisito para o script funcionar, normalmente é obtido no retorno de uma publicação (link, foto, video, etc.) realizada.
+Nas parametrizações pode aparecer o campo `$idPublicacao`. Este parâmetro, pré-requisito para o script funcionar, normalmente é obtido no retorno de uma publicação (link, foto, video, etc.).
