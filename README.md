@@ -1,6 +1,6 @@
 # Scripts PHP para Facebook
 
-Este repositório contém scripts de interações com a API do Facebook (Graph API) usando o SDK para PHP oficial. Você pode usá-los como referência ou integra-los dentro de seu aplicativo.
+Este repositório contém scripts de interações com a API do Facebook (Graph API) usando o SDK para PHP oficial. Você pode usá-los como referência ou integrá-los dentro de seu aplicativo.
 
 ### Instalação:
 
@@ -30,8 +30,8 @@ O `$siteUrl` é a URL onde esta seu scripts estão hospedados. É o mesmo parâm
 
 ### Testando os scripts:
 
-Para testar os scripts é necessário copiá-los para o diretório raiz da aplicação, onde esta o arquivo config.php
+Para testar os scripts é necessário copiá-los para o diretório raiz da aplicação, onde esta o arquivo `config.php`
 
 Alguns scripts precisarão de parametrização extra. As parametrizações estão sempre no ínicio do arquivo. Exemplos de parametrização são: token de acesso de usuário ou página (`$accessToken`), identificadores de grupos, eventos ou places. (`$idGrupo`, `$idEvento` ou `$idPagina`).
 
-Nas parametrizações pode aparecer o campo `$idPublicacao` que normalmente é obtido no retorno de uma publicação (link, foto, video, etc.) realizada.
+Nas parametrizações pode aparecer o campo `$idPublicacao`. Este parâmetro, pré-requisito para o script funcionar, normalmente é obtido no retorno de uma publicação (link, foto, video, etc.) realizada.
